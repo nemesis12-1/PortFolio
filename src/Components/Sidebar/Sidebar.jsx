@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Sidebar.scss';
 import Links from './Links/Links';
-import ToggleButton from './toggleButton/toggleButton';
+import ToggleButton from './ToggleButton/ToggleButton';
 import { motion } from 'framer-motion';
 
 const variants = {
