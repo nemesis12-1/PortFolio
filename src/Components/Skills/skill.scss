@@ -1,0 +1,82 @@
+@import "../../app.scss";
+
+.skill {
+  height: 100%;
+  max-width: 1266px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  @include mobile {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 6.5rem;
+  }
+
+  .titleContainer {
+    font-size: 80px;
+    // flex-wrap: 1;
+    // background-color: red;
+    // flex: 1;
+    width: 100%;
+    align-self: flex-end;
+    font-weight: 500;
+
+    @include mobile {
+      font-size: 40px;
+      align-self: center;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .boxContainer {
+    // flex: 2;
+    width: 100%;
+    // background-color: brown;
+    gap: 20px;
+    display: flex;
+    // flex-wrap: wrap;
+
+    @include mobile {
+      flex-direction: column;
+      // align-items: center;
+      justify-content: center;
+    }
+
+
+    .box {
+      flex: 1;
+      padding: 20px;
+      background-color: #10102a;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 10px;
+
+      .boxTitle {
+        color: gray;
+        font-size: 20px;
+      }
+
+      .boxContent {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+
+        p {
+          padding: 10px;
+          background-color: #222248;
+          border-radius: 6px;
+          border: 0.5px solid  #23237e;
+        }
+      }
+    }
+  }
+}

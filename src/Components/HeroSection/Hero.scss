@@ -1,0 +1,114 @@
+@import "../../app.scss";
+
+.hero {
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+
+  .wrapper {
+    max-width: 1266px;
+    height: 100%;
+    margin: auto;
+
+    .textContainer {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+
+      @include mobile {
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h2 {
+        font-size: 30px;
+        color: rebeccapurple;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+      }
+
+      h1 {
+        font-size: 88px;
+        line-height: 0.9em;
+
+        @include mobile {
+          font-size: 36px;
+          text-align: center;
+          line-height: 1em;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        gap: 20px;
+
+        button {
+          padding: 16px;
+          border: 1px solid white;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          cursor: pointer;
+
+          @include mobile {
+            padding: 8px;
+            border: 0.6px solid white;
+            border-radius: 8px;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .imageContainer {
+    height: 100%;
+    position: absolute;
+    top: 14%;
+    right: 10%;
+
+    @include mobile {
+      width: 100%;
+      margin: auto;
+      height: 50%;
+      top: unset;
+      bottom: 0;
+      right: unset;
+    }
+
+    img {
+      filter: brightness(0.9);
+      width: 90%;
+      height: 60%;
+      object-fit: cover;
+      background-color: transparent;
+      border: 5px solid white;
+      border-radius: 50%;
+      padding: 6px;
+      box-shadow: 10px 10px 20px #0c0c1d, -10px -10px 20px #111132;
+
+      @include mobile {
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
