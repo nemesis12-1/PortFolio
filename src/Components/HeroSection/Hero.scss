@@ -33,6 +33,12 @@
         color: rebeccapurple;
         text-transform: uppercase;
         letter-spacing: 8px;
+
+        @include mobile {
+          font-size: 20px;
+          text-align: center;
+        }
+
       }
 
       h1 {
@@ -103,8 +109,8 @@
       box-shadow: 10px 10px 20px #0c0c1d, -10px -10px 20px #111132;
 
       @include mobile {
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
         margin: auto;
         display: flex;
         justify-content: center;

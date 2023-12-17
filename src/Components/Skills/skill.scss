@@ -12,6 +12,7 @@
   @include mobile {
     width: 90%;
     height: fit-content;
+
     margin: auto;
     flex-direction: column;
     margin-top: 6.5rem;
@@ -35,17 +36,14 @@
   }
 
   .boxContainer {
-    // flex: 2;
     width: 100%;
-    // background-color: brown;
     gap: 20px;
     display: flex;
-    // flex-wrap: wrap;
 
     @include mobile {
       flex-direction: column;
-      // align-items: center;
       justify-content: center;
+      gap: 10px;
     }
 
 
@@ -58,6 +56,11 @@
       flex-direction: column;
       gap: 20px;
       border-radius: 10px;
+
+      @include mobile {
+        width: 100%;
+        gap: 10px;
+      }
 
       .boxTitle {
         color: gray;
