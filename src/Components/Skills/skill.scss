@@ -20,9 +20,6 @@
 
   .titleContainer {
     font-size: 80px;
-    // flex-wrap: 1;
-    // background-color: red;
-    // flex: 1;
     width: 100%;
     align-self: flex-end;
     font-weight: 500;
@@ -30,9 +27,8 @@
     @include mobile {
       font-size: 40px;
       align-self: center;
-      margin-bottom: 20px;
+      margin-bottom: 8px;
     }
-
   }
 
   .boxContainer {
@@ -45,7 +41,6 @@
       justify-content: center;
       gap: 10px;
     }
-
 
     .box {
       flex: 1;
@@ -71,13 +66,12 @@
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
-        
 
         p {
           padding: 10px;
           background-color: #222248;
           border-radius: 6px;
-          border: 0.5px solid  #23237e;
+          border: 0.5px solid #23237e;
         }
       }
     }
