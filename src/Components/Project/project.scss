@@ -39,6 +39,10 @@
     overflow: hidden;
     margin-top: 2rem;
 
+    @include mobile {
+      margin-top: 5px;
+    }
+
     .wrapper {
       max-width: 1266px;
       height: 100%;
