@@ -57,6 +57,8 @@
 
     @include mobile {
       width: 80%;
+      height: fit-content;
+      // background-color: red;
     }
 
 
