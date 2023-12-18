@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import Resume from "../../assets/ashutoshSAhuResume.pdf";
+import Resume from "../../assets/Ashutosh-Sahu-Resume.pdf";
 import downloadImg from "../../assets/download.svg";
 
 import { motion } from "framer-motion";
