@@ -50,7 +50,18 @@ const Skill = () => {
     <>
       <div className="skill">
 
-        <motion.div className="titleContainer" variants={textVariants} initial='initial' whileInView='animate'>
+        <motion.div className="titleContainer"
+          //  variants={textVariants} initial='initial' whileInView='animate'
+          initial={{ opacity: 0, y: 300 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 70,
+            damping: 14,
+            // delay: 0.2,
+          }}
+
+        >
           What I Know
         </motion.div>
 

@@ -20,8 +20,7 @@
 
   .titleContainer {
     font-size: 80px;
-    width: 100%;
-    align-self: flex-end;
+    width: fit-content;
     font-weight: 500;
 
     @include mobile {
