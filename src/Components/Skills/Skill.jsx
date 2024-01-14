@@ -26,6 +26,7 @@ const others = [
   "Git",
   "Github",
   "C++",
+  "Java",
   "Data Structure",
 ]
 

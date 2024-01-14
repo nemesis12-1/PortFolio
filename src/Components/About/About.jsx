@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import Resume from "../../assets/Ashutosh-Sahu-Resume.pdf";
+import Resume from "../../assets/resume.pdf";
 import downloadImg from "../../assets/download.svg";
 
 import { motion } from "framer-motion";
@@ -62,6 +62,7 @@ const About = () => {
                     <h3>Playing Guitar</h3>
                     <h2>What I'm learning</h2>
                     <h3>Next Js</h3>
+                    <h3>TypeScript</h3>
                 </motion.div>
             </div>
         </>

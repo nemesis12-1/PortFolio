@@ -64,7 +64,7 @@ const items = [
         id: 6,
         title: 'Tripadvisor',
         img: tripadvisor,
-         description: 'A UI Home Page of Tripadvisor Website made using React and CSS.',
+         description: 'A UI Home Page of Tripadvisor Website made using React and CSS (Not Responsive).',
         code: 'https://github.com/nemesis12-1/tripadvisor',
         demoLink: 'https://tripadvisor-teal.vercel.app/',
         techStack: ['Tech Stack : React, Css'],
